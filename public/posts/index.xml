@@ -1,7 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Articles - Flawfence | Expert en sécurité informatique</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>Articles | Flawfence | Expert en sécurité informatique</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 05 Feb 2025 16:50:31 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /></channel>
-</rss>
