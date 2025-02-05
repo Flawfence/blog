@@ -1,0 +1,484 @@
+// ------------------------------------------------------
+// 1. IMPORT DES POLICES
+// ------------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+
+@import url('https://db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham');
+@import url('https://db.onlinewebfonts.com/c/056353a27c68233bab7e618c8b191d65?family=GothamPro');
+@import url('https://db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham-Thin');
+@import url('https://db.onlinewebfonts.com/c/fc74760c72164d5321ac886797ce62eb?family=Gotham-Light');
+@import url('https://db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium');
+@import url('https://db.onlinewebfonts.com/c/0ff8990774ec4865c7f45befbafd4910?family=Gotham+Regular');
+@import url('https://db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=GothamBook');
+@import url('https://db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham+Bold');
+@import url('https://db.onlinewebfonts.com/c/34abfd1ab1319100e46597c745b7f434?family=Gotham-Ultra');
+
+// ------------------------------------------------------
+// 2. VARIABLES ET FONTS
+// ------------------------------------------------------
+$code-font-family: 'Fira Mono', 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+$global-font-family: 'Inter', 'Source Sans Pro', sans-serif;
+
+// Variables pour les familles Gotham
+$font-gotham-bold: 'Gotham Bold', 'Roboto', sans-serif;
+$font-gotham-light: 'Gotham Light', 'Roboto', sans-serif;
+
+
+body {
+  background: radial-gradient(rgba(229, 231, 235, 0.7) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(185, 215, 252, 0.5), white, rgba(178, 200, 225, 0.5));
+  background-size: 16px 16px, 100% 100%;
+  background-repeat: repeat, no-repeat;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  transition: all 300ms ease-in-out;
+  backdrop-filter: blur(20px);
+  /* Dégradé de fond : de "slate-900/90" à "darkblue/90" */
+  background: rgb(40, 49, 66);
+  background: -moz-linear-gradient(138deg, rgba(40, 49, 66, 1) 0%, rgba(51, 65, 79, 1) 46%);
+  background: -webkit-linear-gradient(138deg, rgba(40, 49, 66, 1) 0%, rgba(51, 65, 79, 1) 46%);
+  background: linear-gradient(138deg, rgba(40, 49, 66, 1) 0%, rgba(51, 65, 79, 1) 46%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 15px rgba(59, 130, 246, 0.1);
+}
+
+header,
+header a,
+header li,
+header * {
+  color: #ffffff !important;
+}
+
+/* Pour les liens de navigation (si le dégradé ne s'applique pas correctement) */
+header nav ul li a {
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+#search-input-desktop {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+div.header-title {
+  font-weight: 300 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+
+  /* Dégradé néon sur le texte */
+  background: linear-gradient(90deg, #D5E8F3, #c3dcf1, #D5E8F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Effet de lueur néon */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2),
+  0 0 10px rgba(255, 255, 255, 0.2),
+  0 0 20px rgba(255, 255, 255, 0.4),
+  0 0 30px rgba(235, 255, 255, 0.4);
+
+  padding-left: 20px !important;
+}
+
+
+header .logo {
+  position: absolute;
+  left: 0.5em;
+  height: 2.5em !important;
+  width: 2.5em !important;
+
+  /* Faire tourner le logo */
+  animation: rotateLogo 10s infinite linear;
+  /* Effet de lueur néon */
+}
+
+/* Animation de rotation du logo */
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+div.header-wrapper {
+  padding-left: 4rem !important;
+}
+
+.menu-toggle {
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+#menu-toggle-mobile {
+  color: white !important;
+}
+
+
+footer {
+  background: rgba(171, 204, 234, 0.1); /* Fond semi-transparent */
+  backdrop-filter: blur(15px); /* Effet de verre dépoli */
+  -webkit-backdrop-filter: blur(15px); /* Compatibilité Safari */
+  border-top: 1px solid rgba(217, 229, 245, 0.3); /* Bordure subtile */
+  box-shadow: inset 0 0 10px rgba(225, 235, 245, 0.2); /* Ombre interne pour un effet de profondeur */
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+  font-weight: lighter;
+  padding: 20px;
+  text-align: center;
+}
+
+// ------------------------------------------------------
+// 3. DARK THEME
+// ------------------------------------------------------
+[theme=dark] {
+  main {
+    background: linear-gradient(149deg, #0F222D, #122a38, #143142);
+  }
+
+  footer {
+    background: linear-gradient(149deg, #0F222D, #122a38, #143142);
+  }
+
+  .home[data-home="posts"] {
+    .summary {
+      .content {
+        color: rgb(156, 156, 156) !important;
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------
+// 4. TYPOGRAPHIE
+// ------------------------------------------------------
+.header-title,
+h1.home-title {
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  letter-spacing: 4px;
+  font-weight: 400 !important;
+  font-size: 22px !important;
+}
+
+h1 {
+  font-family: $font-gotham-bold !important;
+}
+
+h2.bold-summary {
+  font-family: $font-gotham-bold !important;
+}
+
+h2 {
+  font-family: $font-gotham-light !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.7px;
+}
+
+h3,
+h4,
+h5 {
+  font-family: $font-gotham-light !important;
+}
+
+h4,
+h5 {
+  font-style: italic;
+}
+
+.home-subtitle {
+  text-transform: uppercase;
+  font-family: 'Inter';
+  letter-spacing: 3px;
+  font-size: 0.8em !important;
+}
+
+.menu {
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+strong {
+  color: #45a3d7 !important;
+}
+
+p {
+  line-height: 28px;
+}
+
+// ------------------------------------------------------
+// 5. STRUCTURE DE LA PAGE D'ACCUEIL & ARTICLES'
+// ------------------------------------------------------
+article.single.summary {
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  float: left;
+  padding: 15px;
+  min-height: 430px;
+  margin: 10px;
+
+  /* Effet Glassmorphic */
+  background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+  backdrop-filter: blur(12px); /* Flou d’arrière-plan */
+  -webkit-backdrop-filter: blur(12px); /* Compatibilité Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
+  border-radius: 15px; /* Coins arrondis pour un effet plus doux */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), /* Ombre externe légère */
+  inset 0 0 10px rgba(255, 255, 255, 0.2); /* Ombre interne douce */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+article.single.summary:hover {
+  background: rgba(255, 255, 255, 0.2); /* Fond légèrement plus clair */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15),
+  inset 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+article img{
+  border-radius: 10px;
+}
+
+
+.home[data-home="posts"] {
+  .summary {
+    padding-top: 2.3rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+.archive {
+  .single-title {
+    text-align: center !important;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+// ------------------------------------------------------
+// 6. RESPONSIVITÉ (MEDIA QUERIES)
+// ------------------------------------------------------
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == small {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media screen and (min-width: 600px) {
+      @content;
+    }
+  }
+}
+
+// Pour article.single.summary
+@include respond-to(mobile) {
+  article.single.summary {
+    width: 100%;
+    float: none;
+    padding: 15px;
+  }
+
+  .page.home {
+    width: 100% !important;
+  }
+}
+
+@include respond-to(tablet) {
+  .page.home {
+    min-width: 60%;
+  }
+}
+
+// Pour flex container (adaptatif)
+@include respond-to(small) {
+  .flex-container {
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+  }
+
+  .flex-items:nth-child(1) {
+    text-align: center;
+  }
+}
+
+@include respond-to(large) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+  }
+}
+
+// ------------------------------------------------------
+// 7. AUTRES RÈGLES
+// ------------------------------------------------------
+.cc-color-override-183142524.cc-window,
+a.cc-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  background-color: #45a3d7 !important;
+  font-family: 'Gotham', 'Source Sans Pro', sans-serif !important;
+}
+
+a:hover {
+  color: #256a98 !important;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+iframe[src*="https://www.youtube.com/embed/"] {
+  position: relative !important;
+  // width: 100% !important;
+  height: auto !important;
+  max-width: 300px !important;
+  aspect-ratio: 9 / 16 !important;
+}
+
+.flex-items {
+  padding: 10px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+// Marges pour les titres dans le contenu des articles
+.single {
+  .content {
+    h1 {
+      margin-bottom: -40px !important;
+    }
+
+    h2 {
+      margin-top: 70px !important;
+    }
+
+    h3, h4, h5 {
+      margin-top: 40px !important;
+    }
+
+    p {
+      margin: 1.2rem 0 !important;
+    }
+
+    .admonition {
+      margin: 2rem 0 !important;
+    }
+  }
+}
+
+.home {
+  .home-profile {
+    .home-title {
+      letter-spacing: 6px !important;
+    }
+  }
+}
+
+.featured-image-preview {
+  min-height: 100px;
+}
+
+// ------------------------------------------------------
+// 8. PICTURE AVATAR
+// ------------------------------------------------------
+.trn-picture,
+.trn-picture-big {
+  background-image: url("/images/trn.png");
+  display: inline-block;
+  background-size: cover;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.trn-picture {
+  height: 1.5vh;
+  width: 1.5vh;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.trn-picture-big {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.mbe-picture,
+.mbe-picture-big {
+  background-image: url("/images/mbe.png");
+  display: inline-block;
+  background-size: cover;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.mbe-picture {
+  height: 1.5vh;
+  width: 1.5vh;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.mbe-picture-big {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.flawfence-picture,
+.flawfence-picture-big {
+  background-image: url("/images/logo.png");
+  display: inline-block;
+  background-size: cover;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.flawfence-picture {
+  height: 1.5vh;
+  width: 1.5vh;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.flawfence-picture-big {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

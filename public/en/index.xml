@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Flawfence | Your new cybersecurity consultant</title>
+        <link>http://localhost:1313/en/</link>
+        <description>Flawfence est une solution française de cybersécurité se basant sur les dernières technologies d&#39;IA permettant d&#39;automatiser les audits de sécurité offensif.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Nov 2022 17:25:42 &#43;0100</lastBuildDate>
+            <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
