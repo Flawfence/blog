@@ -7,6 +7,7 @@ images: [/images/FIXME_T_TRANSFORMED/logo.png]
 featuredImage: "/images/FIXME_T_TRANSFORMED/logo.png"
 featuredImagePreview: "/images/FIXME_T_TRANSFORMED/logo.png"
 tags: ["Test d'intrusion", "Pentest", "Audit"]
+author: "trn"
 ---
 
 # FIXME

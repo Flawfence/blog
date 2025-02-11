@@ -188,9 +188,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Android browser theme color
     themeColor = "#ffffff"
     # Safari mask icon color
-    iconColor = "#5bbad5"
+    iconColor = "#1b3a4d"
     # Windows v8-10 tile color
-    tileColor = "#da532c"
+    tileColor = "#1b3a4d"
 
   #  Search config
   [params.search]
