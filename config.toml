@@ -23,14 +23,6 @@ defaultContentLanguage = "fr"
       url = "/posts/"
       title = "Posts"
     [[languages.en.menu.main]]
-      weight = 2
-      identifier = "news"
-      pre = ""
-      post = ""
-      name = "News"
-      url = "/news/"
-      title = "News"
-    [[languages.en.menu.main]]
       weight = 3
       identifier = "about"
       pre = ""
@@ -42,7 +34,7 @@ defaultContentLanguage = "fr"
 
   [languages.fr]
     weight = 3
-    title = "Flawfence | Expert en sécurité informatique"
+    title = "Flawfence | Votre nouvel auditeur cyber"
     languageCode = "fr"
     languageName = "Français"
     [[languages.fr.menu.main]]
@@ -53,22 +45,6 @@ defaultContentLanguage = "fr"
       name = "Articles"
       url = "/posts/"
       title = "Articles"
-    #{[[languages.fr.menu.main]]
-    #  weight = 2
-    #  identifier = "Actualités"
-    #  name = "Actualités"
-    #  pre = ""
-    #  post = ""
-    #  url = "/news/"
-    #  title = "Actualités"
-    [[languages.fr.menu.main]]
-      weight = 3
-      identifier = "About"
-      pre = ""
-      post = ""
-      name = "A propos"
-      url = "/about/"
-      title = "A propos"
     [[languages.fr.menu.main]]
       weight = 3
       identifier = "About"
@@ -84,7 +60,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = "G-FIXME"
+googleAnalytics = "G-40G0XW7449"
 # copyright description used only for seo schema
 copyright = "Flawfence 2025"
 
@@ -549,7 +525,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = "G-FIXME"
+      id = "G-40G0XW7449"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
