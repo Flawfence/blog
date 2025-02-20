@@ -107,7 +107,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/images/logo-transparent.png"
+      logo = "/images/logo-blanc-transparent.png"
       # title name
       name = "FLAWFENCE"
       # you can add extra information before the name (HTML format is supported), such as icons

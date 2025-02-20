@@ -46,6 +46,8 @@ header {
   box-shadow: 0 10px 15px rgba(59, 130, 246, 0.1);
   z-index: 10;
   border: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 header::before {
@@ -70,6 +72,12 @@ header a,
 header li,
 header * {
   color: #ffffff !important;
+}
+
+div#menu-mobile.menu.active {
+  background: rgba(54, 62, 78, 0.8); /* Fond semi-transparent */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
+  transition: all 0.3s ease-in-out;
 }
 
 /* Pour les liens de navigation (si le dégradé ne s'applique pas correctement) */
@@ -105,14 +113,20 @@ div.header-title {
 
 header .logo {
   position: absolute;
-  left: 0.5em;
-  height: 2.5em !important;
-  width: 2.5em !important;
+  left: 1.2em;
+  top: 0.6em;
+  height: 2em !important;
+  width: 2em !important;
 
   /* Faire tourner le logo */
   animation: rotateLogo 10s infinite linear;
-  /* Effet de lueur néon */
+
+  /* Effet de lueur néon blanc */
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3))
+  drop-shadow(0 0 20px rgba(255, 255, 255, 0.6))
+  drop-shadow(0 0 25px rgba(255, 255, 255, 0.4));
 }
+
 
 /* Animation de rotation du logo */
 @keyframes rotateLogo {
@@ -151,17 +165,28 @@ footer {
   text-align: center;
 }
 
+main {
+  padding-top: 0.5em;
+}
+
+
 // ------------------------------------------------------
 // 3. DARK THEME
 // ------------------------------------------------------
 [theme=dark] {
   main {
-    background: linear-gradient(149deg, #0F222D, #122a38, #143142);
+    background: linear-gradient(149deg, #142a38, #19394d, #143142);
+  }
+
+  header {
+    box-shadow: none;
   }
 
   footer {
     background: linear-gradient(149deg, #0F222D, #122a38, #143142);
     border: transparent;
+    color: #ffffff;
+    box-shadow: none;
   }
 
   .home[data-home="posts"] {
@@ -339,6 +364,7 @@ article img {
     width: 100%;
     float: none;
     padding: 15px;
+    margin: 0;
   }
 
   .page.home {
