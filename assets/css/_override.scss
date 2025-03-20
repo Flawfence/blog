@@ -304,8 +304,9 @@ article.single.summary {
   min-height: 430px;
   margin: 10px;
 
-  /* Effet Glassmorphic */
-  background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+  /* Effet Glassmorphic avec des tâches */
+  background: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px), rgba(255, 255, 255, 0.1); /* Fond semi-transparent avec des tâches */
+  background-size: 20px 20px, 100% 100%;
   backdrop-filter: blur(12px); /* Flou d’arrière-plan */
   -webkit-backdrop-filter: blur(12px); /* Compatibilité Safari */
   border: 1px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
@@ -490,7 +491,7 @@ iframe[src*="https://www.youtube.com/embed/"] {
     }
 
     p {
-      margin: 1.2rem 0 !important;
+      margin: 0.5rem 0 !important;
     }
 
     .admonition {
