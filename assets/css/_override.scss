@@ -22,12 +22,13 @@
 $code-font-family: 'Fira Mono', 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 $global-font-family: 'Inter', 'Source Sans Pro', sans-serif;
 
-// Variables pour les familles Gotham
-$font-gotham-bold: 'Gotham Bold', 'Roboto', sans-serif;
-$font-gotham-light: 'Gotham Light', 'Roboto', sans-serif;
-$fond-gotham-medium: 'Gotham Medium', 'Roboto', sans-serif;
-$font-gotham-regular: 'Gotham Regular', 'Roboto', sans-serif;
+$font-inter-bold: 'Inter Bold', 'Roboto', sans-serif;
+$font-inter-light: 'Inter Light', 'Roboto', sans-serif;
+$font-inter-medium: 'Inter Medium', 'Roboto', sans-serif;
+$font-inter-regular: 'Inter Regular', 'Roboto', sans-serif;
 
+$lightblue: rgb(30, 144, 255);
+$darkblue: rgb(11, 25, 35);
 
 body {
   background: radial-gradient(rgba(229, 231, 235, 0.7) 1px, transparent 1px),
@@ -107,7 +108,7 @@ div.header-title {
   0 0 20px rgba(255, 255, 255, 0.4),
   0 0 30px rgba(235, 255, 255, 0.4);
 
-  padding-left: 20px !important;
+  padding-left: 15px !important;
 }
 
 
@@ -158,7 +159,7 @@ footer {
   -webkit-backdrop-filter: blur(15px); /* Compatibilité Safari */
   border-top: 1px solid rgba(217, 229, 245, 0.3); /* Bordure subtile */
   box-shadow: inset 0 0 10px rgba(225, 235, 245, 0.2); /* Ombre interne pour un effet de profondeur */
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8); /* Couleur du texte */
   letter-spacing: 1px;
   font-weight: lighter;
   padding: 20px;
@@ -223,20 +224,28 @@ main {
 // ------------------------------------------------------
 // 4. TYPOGRAPHIE
 // ------------------------------------------------------
-.header-title,
-h1.home-title {
-  font-family: 'Inter', 'Roboto', sans-serif !important;
+.header-title {
+  font-family: $font-inter-light !important;
   letter-spacing: 4px;
-  font-weight: 400 !important;
   font-size: 22px !important;
 }
 
+h1.home-title {
+  font-family: $font-inter-light !important;
+  letter-spacing: 4px;
+  font-size: 22px !important;
+  background: linear-gradient(to right, $lightblue, $darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 h1 {
-  font-family: $font-gotham-regular !important;
+  font-family: $font-inter-light !important;
 }
 
 h2.single-title.bold-summary {
-  font-family: $font-gotham-bold !important;
+  font-family: $font-inter-light !important;
+  letter-spacing: 0;
 }
 
 h2.single-title.bold-summary a, h1.single-title, .details {
@@ -244,7 +253,7 @@ h2.single-title.bold-summary a, h1.single-title, .details {
 }
 
 h2 {
-  font-family: $font-gotham-light !important;
+  font-family: $font-inter-light !important;
   font-weight: 900 !important;
   letter-spacing: 0.7px;
 }
@@ -253,7 +262,7 @@ h2 {
 h3,
 h4,
 h5 {
-  font-family: $font-gotham-light !important;
+  font-family: $font-inter-light !important;
   color: #334155;
 }
 
@@ -426,8 +435,13 @@ a.author, a.header-mark {
   color: #1B3A4D !important;
 }
 
+body > div.wrapper > main > div > div > div > div.links > a {
+  color: oklch(0.554 0.046 257.417);
+  padding: 0.4rem;
+}
+
 a:hover {
-  color: #256a98 !important;
+  color: #244a67 !important;
   transition: all 300ms ease-in-out;
 }
 
@@ -567,4 +581,8 @@ iframe[src*="https://www.youtube.com/embed/"] {
   width: 3.5vh;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.typeit {
+  color: oklch(0.446 0.043 257.281)
 }
