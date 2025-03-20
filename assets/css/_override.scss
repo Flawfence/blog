@@ -164,6 +164,7 @@ footer {
   font-weight: lighter;
   padding: 20px;
   text-align: center;
+  letter-spacing: 3px;
 }
 
 main {
@@ -176,7 +177,7 @@ main {
 // ------------------------------------------------------
 [theme=dark] {
   main {
-    background: linear-gradient(149deg, #142a38, #19394d, #143142);
+    background: linear-gradient(149deg, #2d3c50, #284354, #294e62);
   }
 
   header {
@@ -184,7 +185,7 @@ main {
   }
 
   footer {
-    background: linear-gradient(149deg, #0F222D, #122a38, #143142);
+    background: linear-gradient(149deg, #2D3C50FF, #1b394b, #2D3C50FF);
     border: transparent;
     color: #ffffff;
     box-shadow: none;
@@ -193,7 +194,7 @@ main {
   .home[data-home="posts"] {
     .summary {
       .content {
-        color: rgb(156, 156, 156) !important;
+        color: rgb(206, 221, 232) !important;
       }
     }
   }
@@ -217,6 +218,27 @@ main {
   }
 
   a.author, a.header-mark {
+    color: #dfe6f1 !important;
+  }
+
+  h1.home-title {
+    font-family: $font-inter-light !important;
+    letter-spacing: 4px;
+    font-size: 22px !important;
+    background: linear-gradient(to right, #d1e9f6, rgb(169, 203, 232));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .typeit {
+    color: oklch(0.802 0.031 262.515)
+  }
+
+  .post-publish {
+    color: #dfe6f1 !important;
+  }
+
+  .content {
     color: #dfe6f1 !important;
   }
 }
