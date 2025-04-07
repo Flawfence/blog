@@ -3,9 +3,9 @@ title: "Why map your company's information system?"
 description: "Mapping the IT infrastructure is a pillar of cybersecurity. Discover why and how to map your company's information system."
 date: 2025-03-07T10:54:04+01:00
 draft: false
-images: [/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png]
-featuredImage: "/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
-featuredImagePreview: "/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
+images: [/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png]
+featuredImage: "/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
+featuredImagePreview: "/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
 tags: ["Mapping", "Shadow IT"]
 author: "trn"
 ---
@@ -22,7 +22,7 @@ But why? And what exactly is mapping? What purpose does it serve?
 
 ## What is Mapping?
 
-![1.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/1.png)
+![1.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/1.png)
 
 In practical terms, mapping the IT infrastructure involves **visually representing** all the components of a company's information system.
 
@@ -46,7 +46,7 @@ They provide a real-time view of all the components of the information system an
 
 ## Why Map Your IT Infrastructure?
 
-![2.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/2.png)
+![2.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/2.png)
 
 Now, let's get to the core of the topic: why map the IT infrastructure of your company?
 
@@ -70,7 +70,7 @@ But how can it be done properly?
 
 ## Mapping Tools
 
-![3.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/3.png)
+![3.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/3.png)
 
 Several tools can help create a map of the IT infrastructure.
 
@@ -111,7 +111,7 @@ And this is where our tool [Flawfence](https://flawfence.com) comes into play!
 #### Step 1: Identify Subdomains, IP Addresses, and Virtual Hosts
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto1.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto1.mp4" type="video/mp4">
 </video>
 
 The first step in protecting your external IT infrastructure is to **identify exposed assets** on the Internet.
@@ -127,7 +127,7 @@ Finally, an analysis of the **different technologies used** is performed to add 
 #### Step 2: Identify Cross-Domain Assets
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto2.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto2.mp4" type="video/mp4">
 </video>
 
 Flawfence can identify the **cross-domain assets** used by your company.
@@ -143,7 +143,7 @@ The term **Shadow IT** refers to **IT solutions and services used by employees w
 #### Step 3: Consolidate Everything!
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto3.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto3.mp4" type="video/mp4">
 </video>
 
 Finally, Flawfence consolidates all the collected information to **provide an overview** of your company's external IT infrastructure.
@@ -159,7 +159,7 @@ Would you like to see Flawfence in action? [Contact us](https://flawfence.com) t
 #### Step 1: Identify Technologies in Use
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto4.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto4.mp4" type="video/mp4">
 </video>
 
 Flawfence is capable of identifying the **exposed services and technologies** on the various IP addresses of your company.
@@ -169,7 +169,7 @@ The tool analyzes **service banners** to determine the technologies used and the
 #### Step 2: Consolidate the Information
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto5.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto5.mp4" type="video/mp4">
 </video>
 
 Flawfence then consolidates all the collected information to **provide an overview** of the services exposed on the Internet.
