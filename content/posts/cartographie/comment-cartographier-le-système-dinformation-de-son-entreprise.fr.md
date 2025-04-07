@@ -1,11 +1,11 @@
 ---
-title: "Pourquoi cartographier le système d'information de son entreprise ?"
-description: "La cartographie de l'infrastructure IT est un pilier de la cybersécurité. Découvrez pourquoi et comment cartographier le système d'information de votre entreprise."
-date: 2025-02-06T10:54:04+01:00
+title: "Comment cartographier le système d'information de son entreprise ?"
+description: "La cartographie de l'infrastructure IT est un pilier de la cybersécurité. Découvrez comment cartographier le système d'information de votre entreprise."
+date: 2025-03-07T10:54:04+01:00
 draft: false
-images: [/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png]
-featuredImage: "/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
-featuredImagePreview: "/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
+images: [/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png]
+featuredImage: "/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
+featuredImagePreview: "/images/comment-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
 tags: ["Cartographie", "Shadow IT"]
 author: "trn"
 ---
@@ -16,13 +16,13 @@ author: "trn"
 
 Dans un environnement numérique en constante évolution, la cybersécurité est devenue une priorité pour toutes les entreprises.
 
-La cartographie de l'infrastructure IT est donc une étape essentielle pour assurer la protection des systèmes, anticiper les menaces et améliorer la gestion des risques. 
+La cartographie de l'infrastructure IT est donc une étape essentielle pour assurer la **protection des systèmes**, **anticiper les menaces** et **améliorer la gestion des risques**. 
 
 Mais pourquoi ? Et qu'est-ce qu'une cartographie ? À quoi sert-elle ?
 
 ## Qu'est-ce qu'une cartographie ?
 
-![1.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/1.png)
+![1.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/1.png)
 
 Concrètement, une cartographie de l'infrastructure IT consiste à **représenter de manière visuelle** l'ensemble des composants du système d'information d'une entreprise.
 
@@ -46,7 +46,7 @@ Elles offrent une vision en temps réel de l'ensemble des composants du système
 
 ## Pourquoi cartographier son infrastructure IT ?
 
-![2.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/2.png)
+![2.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/2.png)
 
 Venons-en au sujet, surement le plus important : pourquoi cartographier l'infrastructure IT de son entreprise ?
 
@@ -70,7 +70,7 @@ Mais comment bien la réaliser ?
 
 ## Les outils de cartographie
 
-![3.png](/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/3.png)
+![3.png](/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/3.png)
 
 Quelques outils permettent de réaliser une cartographie de l'infrastructure IT.
 
@@ -113,7 +113,7 @@ Mais du coup, comment bien protéger son infrastructure externe ?
 #### Etape 1 : Identifier les sous-domaines, adresses IP et hôtes virtuels
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto1.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto1.mp4" type="video/mp4">
 </video>
 
 La première étape pour protéger son infrastructure IT externe est d'**identifier les actifs exposés** sur Internet.
@@ -133,7 +133,7 @@ Enfin, une analyse des **différentes technologies utilisées** est réalisée a
 #### Etape 2 : Identifier les domaines transversaux
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto2.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto2.mp4" type="video/mp4">
 </video>
 
 Flawfence est capable d'identifier les **domaines transversaux** utilisés par votre entreprise.
@@ -149,7 +149,7 @@ Le terme **Shadow IT** désigne l'ensemble des **solutions et services informati
 #### Etape 3 : Consolider le tout !
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto3.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto3.mp4" type="video/mp4">
 </video>
 
 Enfin, Flawfence consolide l'ensemble des informations collectées pour **fournir une vue d'ensemble** de l'infrastructure IT externe de votre entreprise.
@@ -167,7 +167,7 @@ Maintenant que les actifs exposés sont identifiés, il est temps de passer à l
 #### Etape 1 : Identifier les technologies utilisées
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto4.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto4.mp4" type="video/mp4">
 </video>
 
 Flawfence est capable d'identifier les **services et technologies exposés** sur les différentes adresses IP de votre entreprise.
@@ -177,7 +177,7 @@ L'outil analyse les **bannières de services** pour déterminer les technologies
 #### Etape 2 : Consolider les informations
 
 <video width="100%" controls autoplay loop>
-  <source src="/images/pourquoi-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto5.mp4" type="video/mp4">
+  <source src="/images/comment-cartographier-le-syst%C3%A8me-dinformation-de-son-entreprise-/carto5.mp4" type="video/mp4">
 </video>
 
 Flawfence consolide ensuite l'ensemble des informations collectées pour **fournir une vue d'ensemble** des services exposés sur Internet.

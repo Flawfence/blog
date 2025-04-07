@@ -310,7 +310,12 @@ h5 {
 }
 
 strong {
-  color: #45a3d7 !important;
+  color: #2D96BD !important;
+  font-weight: 600 !important;
+}
+
+[theme=dark] strong {
+  color: #55bde2!important;
 }
 
 p {

@@ -1,7 +1,7 @@
 ---
 title: "Why map your company's information system?"
 description: "Mapping the IT infrastructure is a pillar of cybersecurity. Discover why and how to map your company's information system."
-date: 2025-02-06T10:54:04+01:00
+date: 2025-03-07T10:54:04+01:00
 draft: false
 images: [/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png]
 featuredImage: "/images/pourquoi-cartographier-le-système-dinformation-de-son-entreprise-/logo.png"
