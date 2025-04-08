@@ -16,7 +16,7 @@ author: "trn"
 
 En 2025, la **sécurité des systèmes d'information** reste un enjeu majeur pour toutes les entreprises. Entre les **cyberattaques** toujours plus sophistiquées, les exigences de conformité réglementaire (RGPD, PCI DSS, DORA), et la complexité des **infrastructures IT modernes**, choisir le bon outil de **scan de vulnérabilités** est devenu un véritable casse-tête.
 
-À travers cet article, nous allons démystifier le sujet et vous aider à choisir une solution adaptée à votre **système informatique**, qu'il soit sur le cloud (AWS, Azure…), en local ou hybride.
+À travers cet article, nous allons démystifier le sujet et vous aider à choisir une solution cyber adaptée à votre **système informatique**, qu'il soit sur le cloud (AWS, Azure…), en local ou hybride.
 
 ## Un peu d'histoire
 
@@ -42,29 +42,29 @@ Il se déroule généralement en plusieurs étapes :
 3. **Rapport** contenant les vulnérabilités détectées, leur gravité, et les recommandations de correction.
 
 {{< admonition warning "Attention aux confusions" true >}}
-Un scan de vulnérabilités n’est **pas un test d’intrusion**. Le scan est automatisé et orienté vers la détection de failles connues, alors que le **pentest** cherche activement à exploiter ces failles comme un **pirate informatique**.
+Un scan de vulnérabilités n’est **pas un test d’intrusion**. Le scan est automatisé et orienté vers la détection de failles connues, alors que le **pentest** cherche activement à exploiter ces failles comme un **attaquant malveillant**, un **pirate informatique**.
 {{< /admonition >}}
 
 ## Pourquoi le choix de l’outil est-il critique ?
 
 Le choix de l’outil de scan de vulnérabilités est crucial pour plusieurs raisons :
 
-- **Complexité** des systèmes modernes : cloud, microservices, conteneurs, etc.
-- **Réglementations** de plus en plus strictes (RGPD, PCI DSS, DORA).
-- **Coûts** liés à une mauvaise gestion des vulnérabilités : pertes financières, atteinte à la réputation, amendes.
+- La **complexité** des systèmes modernes : cloud, microservices, conteneurs, etc.
+- Les **réglementations** de plus en plus strictes (RGPD, PCI DSS, DORA).
+- Les **coûts** liés à une mauvaise gestion des vulnérabilités : pertes financières, atteinte à la réputation, amendes.
 
 Mais surtout, un bon outil doit être capable de s’adapter à votre environnement spécifique et de fournir des résultats exploitables.
 
 Un mauvais outil peut générer :
 
 - Des **faux positifs** qui gaspillent votre temps.
-- Des **faux négatifs** qui laissent vos **données sensibles** exposées.
+- Des **faux négatifs** qui laissent vos **données sensibles** exposées et augmentent le risque de **piratage** et le **risque d'intrusion**.
 - Des rapports peu exploitables, incompréhensibles par la **DSI** ou les développeurs.
 
-Alors qu'un bon outil vous permettra de :
+Alors qu'un bon outil, au contraire, vous permettra de :
 
 - **Renforcer le niveau de sécurité** de votre système.
-- Respecter vos obligations légales (RGPD, ISO 27001, ANSSI).
+- Respecter vos obligations légales (RGPD, ISO 27001, ANSSI) et veiller à une bonne analyse des risques.
 - Protéger vos **informations confidentielles** contre les **intrusions**.
 
 Mais encore faut-il trouver le bon outil !
@@ -80,7 +80,7 @@ Rentrons dans le vif du sujet : quels outils de scan de vulnérabilités utilise
 **Nessus** est l'un des outils de scan de vulnérabilités les plus populaires et les plus utilisés. Il offre une large gamme de fonctionnalités, notamment la détection des vulnérabilités, l'analyse de la configuration et la conformité.
 
 - **Avantages** : Interface conviviale, mises à jour fréquentes, large base de données de vulnérabilités.
-- **Inconvénients** : Coût élevé pour les entreprises, certaines fonctionnalités avancées nécessitent une configuration complexe. Très peu exchaustif sur une application web.
+- **Inconvénients** : Coût élevé pour les entreprises, certaines fonctionnalités avancées nécessitent une configuration complexe. Très peu exchaustif sur une application web et lors d'un audit applicatif.
 
 ### 2. Qualys
 
@@ -94,7 +94,7 @@ Rentrons dans le vif du sujet : quels outils de scan de vulnérabilités utilise
 **OpenVAS** est un outil open-source de scan de vulnérabilités qui offre une alternative gratuite aux solutions commerciales. Il est basé sur le framework Greenbone et propose une large gamme de fonctionnalités.
 
 - **Avantages** : Gratuit, open-source, large communauté de développeurs.
-- **Inconvénients** : Interface utilisateur moins conviviale, nécessite une configuration et une maintenance supplémentaires. Très peu exhaustif et assez mauvais en général.
+- **Inconvénients** : Interface utilisateur moins conviviale, nécessite une configuration et une maintenance supplémentaires. Très peu exhaustif et assez mauvais en général, principalement lors d'un audit applicatif.
 
 ### 4. Nuclei
 
@@ -144,7 +144,7 @@ Il existe des solutions souveraines en France, comme **[Flawfence](https://flawf
 
 **Flawfence** est une solution de scan de vulnérabilités et de cartographie externe moderne conçu avec une approche proactive de la cybersécurité.
 
-Le moteur de scan de vulnérabilités de Flawfence se distingue sur plusieurs aspects :
+Le moteur de scan de vulnérabilités de Flawfence se distingue sur plusieurs aspects et permet de rivaliser avec un auditeur en cybersécurité. :
 
 ### Aspect 1 : L'exhaustivité
 
