@@ -1,11 +1,11 @@
 ---
-title: "Quel scan de vulnérabilité choisir pour son entreprise en 2025 ?"
+title: "Quel scan de vulnérabilités choisir pour son entreprise en 2025 ?"
 description: "Choisir un scan de vulnérabilités en 2025 est un moment délicat. Quel outil choisir ? Quel type de scan ? Pour quel type de système ? Nous vous éclairons sur le sujet."
 date: 2025-04-06T15:39:47+01:00
 draft: false
-images: [/images/quel-scan-de-vulnérabilité-utiliser-en-2025/logo.png]
-featuredImage: "/images/quel-scan-de-vulnérabilité-utiliser-en-2025/logo.png"
-featuredImagePreview: "/images/quel-scan-de-vulnérabilité-utiliser-en-2025/logo.png"
+images: [/images/quel-scan-de-vulnérabilités-utiliser-en-2025/logo.png]
+featuredImage: "/images/quel-scan-de-vulnérabilités-utiliser-en-2025/logo.png"
+featuredImagePreview: "/images/quel-scan-de-vulnérabilités-utiliser-en-2025/logo.png"
 tags: ["Scan De Vulnérabilité", "Pentest", "Audit"]
 author: "trn"
 ---
@@ -71,7 +71,7 @@ Mais encore faut-il trouver le bon outil !
 
 ## Les outils les plus populaires
 
-![Scan de vulnérabilités](/images/quel-scan-de-vulnérabilité-utiliser-en-2025/1.png)
+![Scan de vulnérabilités](/images/quel-scan-de-vulnérabilités-utiliser-en-2025/1.png)
 
 Rentrons dans le vif du sujet : quels outils de scan de vulnérabilités utiliser en 2025 ?
 
@@ -140,7 +140,7 @@ Il existe des solutions souveraines en France, comme **[Flawfence](https://flawf
 
 ## Et si on repensait tout ça avec Flawfence ?
 
-![Flawfence](/images/quel-scan-de-vulnérabilité-utiliser-en-2025/2.png)
+![Flawfence](/images/quel-scan-de-vulnérabilités-utiliser-en-2025/2.png)
 
 **Flawfence** est une solution de scan de vulnérabilités et de cartographie externe moderne conçu avec une approche proactive de la cybersécurité.
 
