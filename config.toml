@@ -170,9 +170,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   #  Search config
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
