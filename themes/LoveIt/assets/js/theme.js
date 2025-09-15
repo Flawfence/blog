@@ -388,27 +388,11 @@ var Theme = /*#__PURE__*/function () {
                   context = _ref5.context;
               return "<div><span class=\"suggestion-title\">".concat(title, "</span><span class=\"suggestion-date\">").concat(date, "</span></div><div class=\"suggestion-context\">").concat(context, "</div>");
             },
-            empty: function empty(_ref6) {
-              var query = _ref6.query;
-              return "<div class=\"search-empty\">".concat(searchConfig.noResultsFound, ": <span class=\"search-query\">\"").concat(query, "\"</span></div>");
-            },
+            empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]) )}"</span></div>`,
             footer: function footer(_ref7) {
               _objectDestructuringEmpty(_ref7);
 
-              var _ref8 = searchConfig.type === 'algolia' ? {
-                searchType: 'algolia',
-                icon: '<i class="fab fa-algolia fa-fw" aria-hidden="true"></i>',
-                href: 'https://www.algolia.com/'
-              } : {
-                searchType: 'Lunr.js',
-                icon: '',
-                href: 'https://lunrjs.com/'
-              },
-                  searchType = _ref8.searchType,
-                  icon = _ref8.icon,
-                  href = _ref8.href;
-
-              return "<div class=\"search-footer\">Search by <a href=\"".concat(href, "\" rel=\"noopener noreffer\" target=\"_blank\">").concat(icon, " ").concat(searchType, "</a></div>");
+              return "";
             }
           }
         });

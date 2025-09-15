@@ -273,7 +273,7 @@ class Theme {
                 },
                 templates: {
                     suggestion: ({ title, date, context }) => `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
-                    empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
+                    empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]) )}"</span></div>`,
                     footer: ({}) => {
                         const { searchType, icon, href } = searchConfig.type === 'algolia' ? {
                             searchType: 'algolia',
@@ -284,7 +284,7 @@ class Theme {
                             icon: '',
                             href: 'https://lunrjs.com/',
                         };
-                        return `<div class="search-footer">Search by <a href="${href}" rel="noopener noreffer" target="_blank">${icon} ${searchType}</a></div>`;},
+                        return ``;},
                 },
             });
             autosearch.on('autocomplete:selected', (_event, suggestion, _dataset, _context) => {
